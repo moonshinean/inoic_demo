@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.divWidth {
+  width: 100vw;
+  height: 29vh;
+  margin-top: 2vh;
+  border-radius: 12px;
+  //margin-right:60vw;
+}
+
+.item-data{
+  background: #ffffff;
+  border-radius: 8px;
+  height: 19vh;
+  margin-right: 4vw;
+  margin-left: 4vw;
+}
+.item {
+   width: 100vw;
+   //line-height: 10vh;
+
+}
+hr {
+  height:1px;
+  border:none;
+  border-top:3px solid #E8E8E8;
+  width: 100%;
+}
+p{
+  margin-left: 2vw;
+  //line-height: 10vh;
+  height: 10vh;
+  outline: none;
+}
+p span {
+  font-size: 0.9rem;
+
+}
+.pspan {
+  line-height: 12vh;
+}
+.btn-style {
+  width: 35vw;
+  height: 5vh;
+  border-radius: 8px;
+  margin-top: 3vh;
+  color: #ffffff;
+  text-align: center;
+  outline: none;
+}
+.refuse {
+  margin-left: 5vw;
+  background: #B5B5B5;
+}
+.refuse:active{
+  background: #0bb8cc;
+}
+.finish {
+  background: #34C877;
+  margin-left: 21vw;
+}
+.finish:active {
+  background: #0bb8cc;
+}
+.itemButton {
+  //background: red;
+  background: #f04141;
+}
+.left{
+  margin-right: 10vw;
+  float: right;
+  line-height: 10vh;
+  width: 30px;
+}
+ion-icon {
+  margin-top: 10px;
+  line-height: 20vh;
+  width: 20px;
+  height: 20px;
+}
+span {
+  line-height: 10vh;
+  position: relative;
+  bottom: 5px;
+  margin-left: 5px;
+}

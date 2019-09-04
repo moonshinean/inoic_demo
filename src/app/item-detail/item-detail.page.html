@@ -1,0 +1,27 @@
+<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=FSSQCrQsjOGnxOMr9N9tu3UNQq2ChmGi"></script>-->
+<ion-header>
+  <ion-toolbar color="header">
+      <ion-title class="itemheader"><p><i class="fa fa-angle-left fa-2x" [routerLink]="['/main']"></i>任 务：{{titlename}}</p></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="itemDetailContent">
+    <ion-list>
+        <ion-list-header>故障类别：{{type}}<button>GPS ></button></ion-list-header><hr/>
+         <ion-list-header>故障时间：{{date}}</ion-list-header>
+    </ion-list>
+    <div class="itemDetailtable">
+        <div class="tabletitle">
+            <div class="table">
+                <p>任务点详情:</p>
+            </div>
+             <div>
+                 <table border="1">
+                     <tr *ngFor="let item of itemDetailData">
+                         <td>{{item.key}}</td>
+                         <td>{{item.value}}</td>
+                     </tr>
+                 </table>
+             </div>
+        </div>
+    </div>
+</ion-content>

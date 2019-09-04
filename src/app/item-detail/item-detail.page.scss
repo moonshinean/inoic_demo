@@ -1,0 +1,70 @@
+ion-header{
+  background: #013668;
+}
+
+ion-title{
+
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Script MT Bold";
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+ion-title p {
+  margin: 0;
+  height: 5vh;
+  text-align: center;
+  line-height: 5vh;
+}
+ion-title i {
+  margin-left: 2vw;
+  float: left;
+  line-height: 5vh;
+  width: 30px;
+  outline: none;
+}
+ion-list-header button{
+  height: 4vh;
+  margin-right: 3vw;
+  border-radius: 8px;
+  width: 15vw;
+  background: red;
+  margin-top: 1.5vh;
+  color: #ffffff;
+}
+.itemDetailContent {
+  background: #e8e8e8;
+}
+ion-list {
+  margin-top: 1.3vh;
+  margin-bottom: 0;
+  //padding: 0;
+}
+ion-list-header{
+  font-size: 1rem;
+  height: 5vh;
+  //margin: 0;
+  line-height: 3vh;
+}
+hr {
+  //height:px;
+  border:none;
+  border-top:5px solid #E8E8E8;
+}
+.itemDetailtable {
+  background: #ffffff;
+  height: 60vh;
+}
+.tabletitle{
+  margin-left: 4vw;
+}
+.tabletitle p {
+  padding-top: 4vh;
+  font-size: 1.3rem;
+}
+td {
+  width: 40vw;
+  height: 6vh;
+  text-align: center;
+}

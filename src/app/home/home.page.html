@@ -1,0 +1,17 @@
+<ion-header class="bar-positive">
+  <ion-toolbar color="header">
+    <ion-title>任 务 详 情</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="background-content">
+    <app-history></app-history>
+  <ion-list >
+        <ion-list-header detail="false" *ngFor="let item of itemdata"  class="background-content">
+
+            <!--<app-item [name]="item.name" [type]="item.type" [date]="item.date" [index]="itemdata.indexOf(item)"></app-item>-->
+            <!--<app-item-accept [name]="item.name" [type]="item.type" [date]="item.date"></app-item-accept>-->
+            <app-historylist [name]="item.name" [type]="item.type" [date]="item.date"></app-historylist>
+        </ion-list-header>
+    </ion-list>
+</ion-content>
+

@@ -1,0 +1,31 @@
+<!--header-->
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="title">登<span>sdadasd</span>陆</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!--body-->
+<ion-content>
+  <ion-grid>
+    <ion-row>
+       <ion-col>
+         <ion-item class="user">
+         <label>用户名：</label><ion-input required type="text" placeholder="请输入用户名" #username></ion-input>
+         </ion-item>
+       </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item class="pass">
+        <label>密<span>化</span>码：</label><ion-input required type="password" placeholder="请输入密码"  #password></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button  expand="full" class="btn" (click)="OnLogin(username,password)">登陆</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,13 @@
+<div class="divWidth">
+  <div class="item-data">
+    <div class="item">
+      <!--<p ><ion-icon name="notifications"></ion-icon><span>新任务</span></p>-->
+      <p  [routerLink]="['/itemDetail']" [queryParams]="{id:name,type:type,time:date,status:'2'}"><span class="pspan">编号：{{name}} <i class="fa fa-angle-right fa-2x left"></i></span></p>
+      <hr/>
+      <p><span>故障类别:{{type}}</span><span>故障时间:{{date}}</span></p>
+    </div>
+  </div>
+  <div class="btn">
+    <ion-button color="success" expand="full" >{{Accept}}</ion-button>
+  </div>
+</div>
